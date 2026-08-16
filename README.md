@@ -91,7 +91,3 @@ project-folder/
 | Overall Winner | **Gradient Boosting** based on MCC (0.4976), AUC (0.9296) and F1 (0.5327). MCC is the most appropriate metric here because it accounts for all four cells of the confusion matrix and does not reward models that inflate accuracy by predicting no for almost everyone. Gradient Boosting scores best on three of the six metrics and is second on accuracy, making it the most balanced model across the board for this imbalanced binary classification problem. |
 
 ---
-
-## Important Note on `duration` Feature
-
-The UCI dataset documentation explicitly states that `duration` (call length in seconds) should be discarded for realistic predictive models because the duration of a call is not known before the call is made. Once the call is over, whether the client subscribed is already known anyway, so the feature leaks information from the future into the model. It is retained in this project to match the standard benchmark results for this dataset, but any real deployment would need to drop it. A leakage analysis comparing model performance with and without `duration` is included in the notebook in section 9.
