@@ -40,6 +40,9 @@ The dataset contains 45,211 records and 17 columns (16 features + 1 target). Eac
 ## c. GitHub Repository Link
 
 [GitHub Link](https://github.com/Het4705/Term-Deposit-Prediction-System)
+<bR>
+[Streamlit Link](https://term-deposit-prediction-system-hz2q8eaf2ucijxqobc89on.streamlit.app/)
+
 
 **Repository structure:**
 
