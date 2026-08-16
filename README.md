@@ -39,7 +39,7 @@ The dataset contains 45,211 records and 17 columns (16 features + 1 target). Eac
 
 ## c. GitHub Repository Link
 
-[https://github.com/YOUR_USERNAME/YOUR_REPO_NAME](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME)
+[GitHub Link](https://github.com/Het4705/Term-Deposit-Prediction-System)
 
 **Repository structure:**
 
